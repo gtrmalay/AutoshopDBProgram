@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="4ea14b6956444722b40561461b640067" Name="Diagram1">
+        <EntityTypeShape EntityType="autoshopModel.Client" Width="1.5" PointX="7.75" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="autoshopModel.Employee" Width="1.5" PointX="10" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="autoshopModel.Employee_Orders" Width="1.5" PointX="12.25" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="autoshopModel.Manufacturer" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="autoshopModel.Orders" Width="1.5" PointX="10" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="autoshopModel.Product" Width="1.5" PointX="3" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="autoshopModel.Product_Manufacturer" Width="1.5" PointX="5.25" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="autoshopModel.Warehouse" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="autoshopModel.Order_Composition" Width="1.5" PointX="5.25" PointY="6.375" IsExpanded="true" />
+        <AssociationConnector Association="autoshopModel.FK__Orders__Client_I__589C25F3" ManuallyRouted="false" />
+        <AssociationConnector Association="autoshopModel.FK__Employee___Emplo__6319B466" ManuallyRouted="false" />
+        <AssociationConnector Association="autoshopModel.FK__Employee___Order__640DD89F" ManuallyRouted="false" />
+        <AssociationConnector Association="autoshopModel.FK__Product_M__Manuf__5F492382" ManuallyRouted="false" />
+        <AssociationConnector Association="autoshopModel.FK__Order_Com__Produ__5A846E65" ManuallyRouted="false" />
+        <AssociationConnector Association="autoshopModel.FK__Product__Warehou__53D770D6" ManuallyRouted="false" />
+        <AssociationConnector Association="autoshopModel.FK__Product_M__Produ__5E54FF49" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
